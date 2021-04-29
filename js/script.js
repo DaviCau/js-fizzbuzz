@@ -12,6 +12,6 @@ for (var i = 1; i <= 100; i++) {
     } else {
         stampa = i;
     }
-    document.getElementById("numbers").innerHTML = document.getElementById("numbers").innerHTML + stampa + "<br>";
+    document.getElementById("numbers").innerHTML = document.getElementById("numbers").innerHTML + "<li>" + stampa + "</li>";
     console.log(stampa);
 }
